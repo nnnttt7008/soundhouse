@@ -138,7 +138,8 @@ javascript: (function () {
           temp_obj.領収書但し書き = obj.領収書但し書き;
           temp_obj.摘要相手先 = "ライフカード（サウンドハウス）";
           temp_obj.支払元入金先 = "楽7630295";
-          (temp_obj.小計備考 = ""), (temp_obj.スペース = "");
+          temp_obj.小計備考 = "";
+          temp_obj.スペース = "";
           temp_obj.メーカー = item.メーカー;
           temp_obj.金額 = item.個別価格;
           temp_obj.名前 = item.名前;
