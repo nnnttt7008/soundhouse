@@ -130,6 +130,7 @@ javascript: (function () {
       _.forEach(objar, function (obj) {
         _.forEach(obj.アイテム配列, function (item) {
           var temp_obj = {};
+
           temp_obj.実際合計金額 = obj.実際合計金額;
           temp_obj.注文日 = obj.注文日;
           temp_obj.注文番号 = obj.注文番号;
@@ -155,6 +156,13 @@ javascript: (function () {
       });
 
       var top_key = [
+        "年度",
+        "月",
+        "日付",
+        "code",
+        "収支",
+        "大科目",
+        "小科目",
         "摘要相手先",
         "摘要内容",
         "支払元入金先",
