@@ -25,7 +25,7 @@ javascript: (function () {
       )
     ).then(function (texts) {
       //fetchをpromise.allで取得した後スクリプト再開
-
+      console.dir("aaa")
       var results = [];
       //注文詳細ページテキストをdomparse
       _.forEach(texts, function (text) {
